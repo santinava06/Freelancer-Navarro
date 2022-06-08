@@ -1,0 +1,188 @@
+@charset "UTF-8";
+html, body {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 1rem; }
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1; }
+
+a {
+  text-decoration: none; }
+
+.mainIndex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.collapse {
+  justify-content: end; }
+
+.cabezaNav {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.cabezaNav a {
+  color: #ffffff;
+  font-weight: 900; }
+
+.cabezaNav img {
+  height: 30px; }
+
+.cabezaNav ul {
+  list-style: none; }
+
+.cabezaNav ul li a {
+  display: block;
+  padding: 20px; }
+
+h2 {
+  text-align: center;
+  font-size: 50px; }
+
+.tamañoCarrusel {
+  width: 700px;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.fotosTrabajos {
+  filter: blur(3px); }
+
+.wpIcon {
+  position: fixed;
+  bottom: 0px;
+  right: 1px; }
+
+/* Clientes */
+li {
+  display: flex;
+  font-size: 20px; }
+
+.imgCarnet {
+  width: 150px;
+  height: 150px; }
+
+/* Sobre mi */
+.miFoto {
+  width: 300px;
+  height: 300px; }
+
+.sobreMiObjetos {
+  display: flex; }
+
+/* Portafolios */
+.port {
+  text-align: center; }
+
+/*****************HEADER-NAV*******************/
+.collapse {
+  justify-content: end; }
+
+.cabezaPrincipal {
+  background: #282d32;
+  background: linear-gradient(180deg, #353432 0%, #282d32 100%); }
+
+.cabezaNav {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.cabezaNav a {
+  color: #ffffff;
+  font-weight: 900; }
+
+.cabezaNav img {
+  height: 30px; }
+
+.cabezaNav ul {
+  list-style: none; }
+
+.cabezaNav ul li a {
+  display: block;
+  padding: 20px; }
+
+/******************FOOTER******************/
+.footer-dark {
+  margin-top: 50px;
+  padding: 35px 0;
+  color: #f0f9ff;
+  background-color: #282d32; }
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 60%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75; }
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9; }
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0; }
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0; }
+
+.footer-dark .item.social {
+  text-align: center; }
+
+.contactTituloC {
+  color: #740E45;
+  margin-top: 25PX;
+  font-size: 3.4rem; }
+
+.contactSegundoC {
+  font-size: 18px;
+  margin: 10px 20px; }
+
+.formFormC {
+  margin: auto;
+  margin-top: 25px;
+  width: 260px;
+  height: 300px; }
+
+.campoC {
+  margin: 10px; }
+
+.contenedorInputC {
+  margin: none;
+  width: 100%; }
+  .contenedorInputC .campoC {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px; }
+
+.mapaMapaC iframe {
+  margin-top: 0;
+  width: 500px;
+  height: 500px; }
+
+.btn-estiloC {
+  margin-top: 20px;
+  background-color: darkblue;
+  color: #ffffff;
+  padding: 15px 80px;
+  border-radius: 60px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 15px; }
+  .btn-estiloC:hover {
+    cursor: pointer;
+    background: lightblue; }
